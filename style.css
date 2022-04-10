@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.header {
+    background-color: #000407;
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.banner {
+    background-image: url('bg-jelly-fish-para_outras_pags.png');
+}
+
+.banner .container {
+    height: 550px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.banner p {
+    font-size: 36px;
+    width: 280px;
+    margin: left 20%;
+}
+
+.footer {
+    background-color: #32b9cd;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.agora {
+    font-weight: 900;
+}
+
+.card {
+    background-color: #e5e5e5e5;
+    color: #e6005a;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .h2 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+}
+
+.banner .container.login {
+    justify-content: center;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+form input {
+    margin-top: 8px;
+    outline: 3px solid #32b9cd;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 30px;
+    background-color: #e6005a;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mvv {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_dados {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_conteudo {
+    width: 150px;
+}
+
+.card_missao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+.card_visao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+.card_valores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+h3 {
+    color: #e6005a;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5e5;
+    color: #e6005a;
+    height: 450px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
